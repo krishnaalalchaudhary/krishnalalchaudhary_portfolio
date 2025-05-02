@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04450d5fa0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick = "closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick = "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web & Software Developer</p>
+                <h1>Hi, I'm <span>Krishna Lal Chaudhary</span><br>From Nepal</h1>
+            </div>
+        </div>
+    </div>  
+    <!-------------------About----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="images/avatar1.jpg">  
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Krishna Lal Chaudhary, a passionate web & software developer specializing in JavaScript, PHP and DotNet in C#.
+                        I can also in database side like making database in each pages with record them even in SQL query i understood. I know the things that require in web and software development process.
+                        With a keen eye for detail and a love for coding, I create dynamic, user-friendly websites that make a difference. My goal is to build seamless digital experiences that leave a lasting impression.
+                        I have good years of experience in web development, working with clients from various industries to deliver high-quality, responsive, and scalable websites. Whether it's a simple landing page or a complex web application, I strive to bring ideas to life with clean and efficient code.
+                        When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing my knowledge through blogs and tutorials. I believe in continuous learning and always look for opportunities to grow and improve my skills.
+                        <br><a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Web Development</span><br>HTML5, CSS3, Javascript,React Js & Bootstrap</li>
+                                <li><span>Backend Web Development</span><br>PHP, DotNet in C#, MySQL</li>
+                                <li><span>Desktop App</span><br>With C# entityFramework, C, C++ and Python </li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                                <li><span>Tools & Frameworks</span><br>Bootstrap, Git, GitHub</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Digital Marketing</span><br>Junior SEO at Defttree Solution</li>
+                                <li><span>Junior Developer</span><br> God technologies</li>
+                                <li><span>Associates Web and Software Developer</span><br>Oricid tech lahan</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2015 SLC </span><br>Shree Vidhaya Mandir Higher Secondary School Binayak, Achham</li>
+                                <li><span>2017 Plus-2</span><br>J.S.M.M.Campus Lahan, Sirha</li>
+                                <li><span>2017-2021 Engineering </span><br>ACME Engineering College Sitapaila, Kathmandu</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I can design your sites how you want. I also make web pages for you with chip cost.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Desktop App Development</h2>
+                    <p>I can design your sites how you want. I also make web pages for you with chip cost.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                    <h2>App Development</h2>
+                    <p>I can design your sites how you want. I also make web pages for you with chip cost.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------Portfolio start from here----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects to you in the world. download from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>Todo web App</h3>
+                        <p>The todo web app made for reason it is because it helps you to do your work on time</p>
+                        <a href="https://krishnaalalchaudhary.github.io/TodoSoftware/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>Android/iOs App</h3>
+                        <p>The app connects to you in the world. download from play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!------------------------------Contact section start --------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>krishnaalalchaudhary@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9815680777</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/9815680777"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://linkedin.com/in/krishna-lal-chaudhary-380175260"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/krishnaalalchaudhary"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+                </div> 
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>  
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> 2025 Krishna Lal Chaudhary. All rights reserved <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwJeV4347gv7rGDrk8_cV1__DamJ0Ex5cFfsO8IWEQuekg4G0PV1-Puh4XLe0O6-2h5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
